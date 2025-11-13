@@ -19,7 +19,6 @@ nonList = "".join(yourList)
 maxLength = len(nonList)
 randomLength = random.randint(3, maxLength)
 startIndex = random.randint(0, maxLength - randomLength)
-nonNonList = random.shuffle(nonList)
 slicedWord = nonList[startIndex : startIndex + randomLength]
 print(f"Word to create: {slicedWord}")
 while slicedWord != finalList:
